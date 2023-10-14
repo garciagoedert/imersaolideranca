@@ -506,8 +506,16 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  background-image: url('../images/edward-unsplash-blur\ -\ cópia.jpg');
   background-color: #704010;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-section2 {
+  /* background-image: url('../images/edward-unsplash-blur.jpg'); */
+  background-color: #0F0F0F;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

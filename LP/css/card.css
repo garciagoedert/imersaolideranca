@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  body {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5462/cream_pixels.png) repeat;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #D44E4B;
+  }
+  
+  .container {
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 100%;
+  }
+  @media (min-width: 600px) {
+    .container {
+      max-width: 680px;
+    }
+  }
+  @media (min-width: 960px) {
+    .container {
+      width: 100%;
+    }
+  }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .keynote {
+    border: 10px solid #333;
+    overflow: hidden;
+    position: relative;
+  }
+  @media (min-width: 600px) {
+    .keynote {
+      border-color: white;
+    }
+  }
+  @media (min-width: 600px) {
+    .keynote:hover {
+      -webkit-transition: 0.55s 0s;
+      -moz-transition: 0.55s 0s;
+      -ms-transition: 0.55s 0s;
+      transition: 0.55s 0s;
+    }
+    .keynote:hover img {
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -ms-filter: blur(3px);
+      filter: blur(3px);
+      -webkit-transition: 0.55s 0s;
+      -moz-transition: 0.55s 0s;
+      -ms-transition: 0.55s 0s;
+      transition: 0.55s 0s;
+    }
+  }
+  
+  .keynote-desc {
+    background: #333;
+    height: 100%;
+    opacity: 1;
+    padding: 5px 20px 30px;
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: 0.55s 0s;
+    -moz-transition: 0.55s 0s;
+    -ms-transition: 0.55s 0s;
+    transition: 0.55s 0s;
+  }
+  @media (min-width: 600px) {
+    .keynote-desc {
+      background: rgba(0, 0, 0, 0.6);
+      height: 30%;
+      opacity: 1;
+      padding: 0 40px;
+      position: absolute;
+    }
+  }
+  
+  .keynote:hover .keynote-desc {
+    background: #333;
+    height: 100%;
+    opacity: 1;
+    padding: 5px 20px 30px;
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: 0.55s 0s;
+    -moz-transition: 0.55s 0s;
+    -ms-transition: 0.55s 0s;
+    transition: 0.55s 0s;
+  }
+  @media (min-width: 600px) {
+    .keynote:hover .keynote-desc {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      position: absolute;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .keynote:hover .keynote-bio {
+      opacity: 1;
+      margin-top: 0;
+      -webkit-transition: 0.55s 0.35s;
+      -moz-transition: 0.55s 0.35s;
+      -ms-transition: 0.55s 0.35s;
+      transition: 0.55s 0.35s;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .keynote:hover .more {
+      margin: 25px auto;
+      -webkit-transition: 0.55s 0.35s;
+      -moz-transition: 0.55s 0.35s;
+      -ms-transition: 0.55s 0.35s;
+      transition: 0.55s 0.35s;
+    }
+  }
+  
+  .keynote:hover .keynote-name::after {
+    border-bottom: 1px solid #ccc;
+    content: "";
+    bottom: -13px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    width: 200px;
+    -webkit-transition: 0.35s 0.75s;
+    -moz-transition: 0.35s 0.75s;
+    -ms-transition: 0.35s 0.75s;
+    transition: 0.35s 0.75s;
+  }
+  
+  .keynote-name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+  }
+  @media (min-width: 600px) {
+    .keynote-name {
+      font-size: 2em;
+    }
+  }
+  .keynote-name::after {
+    border-bottom: 1px solid #666;
+    content: "";
+    bottom: -13px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    width: 200px;
+  }
+  @media (min-width: 600px) {
+    .keynote-name::after {
+      border-bottom: 1px solid #ccc;
+      margin: 0;
+      width: 0;
+      -webkit-transition: 0.35s 0s;
+      -moz-transition: 0.35s 0s;
+      -ms-transition: 0.35s 0s;
+      transition: 0.35s 0s;
+    }
+  }
+  
+  .keynote-bio {
+    color: white;
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    -webkit-transition: 0.55s 0s;
+    -moz-transition: 0.55s 0s;
+    -ms-transition: 0.55s 0s;
+    transition: 0.55s 0s;
+  }
+  @media (min-width: 600px) {
+    .keynote-bio {
+      margin-top: 70px;
+      opacity: 0;
+    }
+  }
+  
+  .more {
+    background: #D44E4B;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    margin: 25px auto;
+    padding: 10px;
+    text-decoration: none;
+    max-width: 190px;
+  }
+  @media (min-width: 600px) {
+    .more {
+      margin: 80px auto;
+      -webkit-transition: 0.55s 0s;
+      -moz-transition: 0.55s 0s;
+      -ms-transition: 0.55s 0s;
+      transition: 0.55s 0s;
+    }
+  }
