@@ -524,7 +524,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur\ -\ cópia.jpg');
+  
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -532,7 +532,7 @@ strong {
 }
 
 .about-section2 {
-  /* background-image: url('../images/edward-unsplash-blur.jpg'); */
+  
   background-color: #0F0F0F;
   background-repeat: no-repeat;
   background-size: cover;
@@ -855,7 +855,7 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
+  
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
