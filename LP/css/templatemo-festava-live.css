@@ -333,6 +333,12 @@ strong {
 -----------------------------------------*/
 .video-wrap {
   z-index: -100;
+  max-width: 100%;
+}
+
+.video {
+
+  max-width: 100%;
 }
 
 .custom-video {
