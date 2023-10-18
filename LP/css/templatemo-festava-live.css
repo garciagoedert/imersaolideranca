@@ -577,7 +577,7 @@ strong {
   TICKET               
 -----------------------------------------*/
 .ticket-section {
-  background-image: url('../images/nicholas-green-unsplash-blur.jpg');
+  background-image: url('/LP/images/blurry.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
