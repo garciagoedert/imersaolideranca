@@ -1397,7 +1397,8 @@ font-size: 48px;
   padding-bottom: 14rem;
 }
 
-#detail, #video,
+#detail, 
+/* #video, */
 #speakers, 
 #program,
 #sponsors, 
@@ -1413,7 +1414,9 @@ footer {
 }
 
 #overview h3,
-#detail h3, #video h3,
+#detail h3, 
+/* #video  */
+h3,
 #register h3,
 #venue h3,
 #contact h3 {
@@ -1674,4 +1677,9 @@ body {
 video {
   width: 100%;
   height: auto;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
+
+
