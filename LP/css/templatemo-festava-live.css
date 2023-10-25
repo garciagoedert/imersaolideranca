@@ -1707,11 +1707,32 @@ video {
 
 
 .hero {
-  background-image: url("/LP/images/Foto\ inicial\ \(PC\)\ \(convert.io\).webp");
+
+
+    /* background-image: url("/LP/images/Foto\ inicial\ \(PC\)\ \(convert.io\).webp") */
+
+
+
+  /* background-image: url("/LP/images/Foto\ inicial\ \(PC\)\ \(convert.io\).webp"); */
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   vertical-align: middle;
   min-height: 100vh;
   position: relative;
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    background-image: url(/LP/images/Capa\ LP\ \(mobile\)\ \(1\).png);
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .hero {
+    background-image: url(/LP/images/Foto\ inicial\ \(PC\)\ \(convert.io\).webp);
+  }
 }
