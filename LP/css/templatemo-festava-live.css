@@ -1702,3 +1702,16 @@ video {
 .my-whatsApp{
   margin-top:16px;
 }
+
+
+
+
+.hero {
+  background-image: url("/LP/images/Foto\ inicial\ \(PC\).png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
