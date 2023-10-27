@@ -1718,7 +1718,7 @@ video {
   background-position: top;
   background-repeat: no-repeat;
   vertical-align: middle;
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
 
 
